@@ -1,25 +1,63 @@
-        <!-- HEADER -->
-        <header>
-            <div class="container">
-              <div class="header">
-                <a href="">ЛОГО</a>
-                <nav class="nav">
-                  <ul class="nav__list">
-                    <li class="nav__item">
-                      <a href="" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                      <a href="" class="nav__link">How it’s made?</a>
-                    </li>
-                    <li class="nav__item">
-                      <a href="" class="nav__link">Our products</a>
-                    </li>
-                    <li class="nav__item">
-                      <a href="" class="nav__link">Contact</a>
-                    </li>
-                  </ul>
-                </nav>
-                <button class="button">Buy now ></button>
-              </div>
-            </div>
-          </header>
+<header class="header">
+  <div class="container header__container">
+    <a class="header__logo" href="#">
+      <img src="/src/images/logo.png" alt="logo" width="60"
+    /></a>
+    <button type="button" class="mobile-menu-button" data-menu-open>
+      <svg class="mobile-menu-button__icon" width="40" height="40">
+        <use href="./images/sprite.svg#mobile-menu-icon"></use>
+      </svg>
+    </button>
+    <nav class="header__nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="nav__link">How it’s made?</a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="nav__link">Our products</a>
+        </li>
+        <li class="nav__item">
+          <a href="" class="nav__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="button header__button">Buy now ></button>
+  </div>
+  <div class="mobile-menu" data-menu>
+    <div class="container mobile-menu__container">
+      <button class="mobile-menu-button" data-menu-close>
+        <svg
+          class="mobile-menu-button__icon mobile-menu-button__icon--close"
+          width="40"
+          height="40"
+        >
+          <use href="./images/sprite.svg#mobile-menu-close-icon"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-nav__list">
+          <li class="mobile-menu-nav__item">
+            <a class="mobile-menu-nav__link" href="./index.html">Home</a>
+          </li>
+          <li class="mobile-menu-nav__item">
+            <a
+              class="mobile-menu-nav__link mobile-menu-nav__link--active"
+              href="#"
+              >How it’s made?</a
+            >
+          </li>
+          <li class="mobile-menu-nav__item">
+            <a class="mobile-menu-nav__link" href="">Our products</a>
+          </li>
+          <li class="mobile-menu-nav__item">
+            <a class="mobile-menu-nav__link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button header__button">Buy now ></button>
+    </div>
+  </div>
+</header>
