@@ -406,4 +406,26 @@ body .mobile-menu.is-open {
   .hero__image {
     width: 456px;
   }
+}
+
+.hero__preview {
+  display: flex;
+  align-items: center;
+}
+
+.hero__preview-wrapper {
+  margin-left: 15px;
+}
+
+.hero__preview-description {
+  width: 200px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.hero__preview-button {
+  width: 40px;
+  height: 16px;
 }/*# sourceMappingURL=index.css.map */
