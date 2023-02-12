@@ -14,29 +14,44 @@
 }
 
 .header__logo {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  margin: 16px 0;
+  //padding-bottom: 16px;
+}
+@media screen and (min-width: 480px){
+  .header__logo img{
+    width: 48px;
+  }
 }
 @media screen and (min-width: 768px) {
-  .header__logo {
-    padding-top: 26px;
-    padding-bottom: 26px;
-  }
+
   .header__nav {
     display: none;
   }
   .header__button {
     display: block;
+    width: 152px;
+    height: 42px;
+    background: var(--button-color);
+    border: none;
+    border-radius: 10px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+
   }
 }
 @media screen and (min-width: 1200px) {
   .header__logo {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    //padding-top: 26px;
+    //padding-bottom: 26px;
     margin-right: 92px;
   }
+  .header__logo img{
+    width: 60px;
+  }
   .header__nav {
-    display: flex;
+    display: block;
   }
 
   .nav__list {
@@ -45,22 +60,20 @@
   }
 
   .nav__item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 28px;
   }
 
   .nav__link {
-    padding-top: 34px;
-    padding-bottom: 34px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: inherit;
-    transition: color var(--animation-duration) var(--animation-timing-function);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--primary-text-color);
+    //transition: color var(--animation-duration) var(--animation-timing-function);
 
     &:hover,
     &:focus {
       color: var(--accent-color);
+
     }
   }
 
