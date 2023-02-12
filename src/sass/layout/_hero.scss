@@ -1,0 +1,92 @@
+//.hero{
+  
+//}
+.hero__container{
+    position: relative;
+    background-color: var(--primary-background-color);
+    @media screen and (min-width: 768px){
+        min-height: 340px;
+    }
+    @media screen and (min-width: 1200px){
+        min-height: 570px;
+    }
+
+}
+.hero__title{
+    width: 247px;
+    font-family: var(--secondary-font-family);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.27;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--primary-text-color);
+
+    @media screen and (min-width: 1200px){
+        width: 367px;
+        font-size: 38px;
+        line-height: 1.26;
+    }
+}
+.hero__button{
+    margin-top: 32px;
+    margin-bottom: 220px;
+    padding: 11px 26px;
+
+    box-sizing: border-box;
+    border: 2px solid var(--button-color);
+    border-radius: 8px;
+    background-color: transparent;
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    color: var(--secondary-text-color);
+}
+.hero__link{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    text-decoration-line: underline;
+
+    color: var(--accent-color);
+}
+.hero__points{
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    @media screen and (min-width: 320px){
+        width: 320px;
+    }
+    @media screen and (min-width: 480px){
+        width: 330px;
+    }
+    @media screen and (min-width: 768px){
+        width: 268px;
+    }
+    @media screen and (min-width: 1200px){
+        width: 456px;
+    }
+}
+.hero__image{
+    width: 177px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translate(50%, 0%);
+    
+    @media screen and (min-width: 480px){
+        width: 218px;
+    }
+    @media screen and (min-width: 768px){
+        width: 268px;
+        right: 30%;
+    }
+    @media screen and (min-width: 1200px){
+        width: 456px;
+
+    }
+}
