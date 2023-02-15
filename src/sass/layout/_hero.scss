@@ -1,9 +1,8 @@
-//.hero{
-
-//}
+.hero {
+  background-color: var(--primary-background-color);
+}
 .hero__container {
   position: relative;
-  background-color: var(--primary-background-color);
   @media screen and (min-width: 768px) {
     min-height: 340px;
   }
@@ -46,19 +45,17 @@
   line-height: 1.25;
   color: var(--secondary-text-color);
 
-  @media screen and (min-width: 480px){
+  @media screen and (min-width: 480px) {
     margin-bottom: 145px;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     margin-bottom: 15px;
   }
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     width: 134px;
     height: 42px;
     margin-bottom: 40px;
-
   }
-
 }
 .hero__link {
   margin-left: 12px;
@@ -70,7 +67,7 @@
 
   color: var(--accent-color);
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     margin-left: 35px;
 
     font-size: 14px;
@@ -82,34 +79,33 @@
   bottom: 0;
   right: 50%;
   transform: translate(50%, 0%);
-  @media screen and (min-width: 480px){
+  @media screen and (min-width: 480px) {
     right: 163px;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
-.hero__points-tablet{
+.hero__points-tablet {
   display: none;
   position: absolute;
   bottom: 0;
   right: 50%;
   transform: translate(50%, 0%);
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: block;
   }
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     display: none;
   }
-  
 }
-.hero__points-desktop{
+.hero__points-desktop {
   display: none;
   position: absolute;
   bottom: 0;
   right: 50%;
   transform: translate(50%, 0%);
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     display: block;
   }
 }
@@ -119,34 +115,34 @@
   bottom: 0;
   right: 50%;
   transform: translate(50%, 0%);
-  @media screen and (min-width: 480px){
+  @media screen and (min-width: 480px) {
     right: 155px;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     width: 268px;
     right: 200px;
   }
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     width: 456px;
     right: 335px;
   }
 }
 .hero__preview {
   display: none;
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
   }
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     margin-bottom: 65px;
   }
 }
-.hero__preview-image{
+.hero__preview-image {
   width: 152px;
   margin-bottom: 15px;
   z-index: 2;
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     width: 225px;
   }
 }
@@ -159,7 +155,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.4;
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     width: 200px;
     font-size: 14px;
   }

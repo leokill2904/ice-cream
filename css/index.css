@@ -71,6 +71,10 @@ img {
   --icon-fill: #afb1b8;
 }
 
+.header {
+  background-color: var(--primary-background-color);
+}
+
 @media screen and (max-width: 767px) {
   .header__nav,
   .header__button {
@@ -81,7 +85,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--primary-background-color);
 }
 
 .header__logo {
@@ -301,9 +304,12 @@ body .mobile-menu.is-open {
   }
 }
 
+.hero {
+  background-color: var(--primary-background-color);
+}
+
 .hero__container {
   position: relative;
-  background-color: var(--primary-background-color);
 }
 @media screen and (min-width: 768px) {
   .hero__container {
@@ -505,4 +511,64 @@ body .mobile-menu.is-open {
 .hero__preview-button {
   width: 40px;
   height: 16px;
+}
+
+.products__container {
+  background-image: url(/src/images/section-product/bg_product_section_320px.png);
+}
+@media screen and (min-width: 480px) {
+  .products__container {
+    background-image: url(/src/images/section-product/bg_product_section_480px.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__container {
+    background-image: url(/src/images/section-product/bg_product_section_768px.png);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__container {
+    background-image: url(/src/images/section-product/bg_product_section_1200px.png);
+  }
+}
+
+.products__title-descriptions {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+@media screen and (min-width: 768px) {
+  .products__title-descriptions {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__title-descriptions {
+    font-size: 30px;
+  }
+}
+
+.products__title {
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.26;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+@media screen and (min-width: 768px) {
+  .products__title {
+    font-size: 34px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .products__title {
+    font-size: 36px;
+  }
 }/*# sourceMappingURL=index.css.map */
