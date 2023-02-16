@@ -121,12 +121,12 @@
   }
   @media screen and (min-width: 768px) {
     top: 0;
-    background-image: url(/src/images/products/tablet/ice_cream_768px_1x.png);
+    background-image: url(/src/images/products/tablet/ice_cream_1_768px_1x.png);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/src/images/products/tablet/ice_cream_768px_2x.png);
+      background-image: url(/src/images/products/tablet/ice_cream_1_768px_2x.png);
     }
   }
 
@@ -136,12 +136,12 @@
     width: 302px;
     height: 318px;
 
-    background-image: url(/src/images/products/desktop/ice_cream_1200_1x.png);
+    background-image: url(/src/images/products/desktop/ice_cream_1_1200_1x.png);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(/src/images/products/desktop/ice_cream_1200_2x.png);
+      background-image: url(/src/images/products/desktop/ice_cream_1_1200_2x.png);
     }
   }
 }
