@@ -915,6 +915,11 @@ body .mobile-menu.is-open {
 @media screen and (min-width: 768px) {
   .about__button {
     margin-left: 0;
-    margin-top: 55px;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .about__button {
+    margin-top: 50px;
   }
 }/*# sourceMappingURL=index.css.map */
