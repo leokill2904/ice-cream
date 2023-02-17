@@ -1,20 +1,44 @@
-            <!-- ABOUT -->
-            <section>
-                <div class="container">
-                  <p>tradition and love</p>
-                  <h2>how it’s made?</h2>
-                  <p>
-                    Ice is a place where you will become not only a little happier, but
-                    also healthier. Health is the main value for us, and we follow it
-                    when creating our handmade desserts.
-                  </p>
-                  <p>
-                    We use traditional recipes and 100% natural ingredients. Our
-                    products are so natural that they can be given to children from the
-                    age of three years. Sweets lovers can expect 55 types of ice cream,
-                    15 types of coffee and 23 milkshakes.
-                  </p>
-                  <p>This is enough to choose ice cream and coffee for any mood!</p>
-                  <button>Read more ></button>
-                </div>
-              </section>
+
+<section class="about">
+  <div class="container about__container">
+    <p class="about__title--description">tradition and love</p>
+    <h2 class="about__title">how it’s made?</h2>
+    <div class="about__table">
+      <picture>
+        <source
+        srcset="./images/about/desktop/cow_desk-1x.png 1x, 
+                ./images/about/desktop/cow_desk-2x.png 2x"
+        media="(min-width: 1200px)"
+        />
+        <source
+        srcset="./images/about/tablet/cow_tab-1x.png 1x, 
+                ./images/about/tablet/cow_tab-2x.png 2x"
+        media="(min-width: 768px)"
+        />
+        <img
+        srcset="./images/about/mobile/cow_mob-1x.png 1x, 
+                ./images/about/mobile/cow_mob-2x.png 2x"
+    
+        src="./images/about/mobile/cow_mob-1x.png" 
+        alt="cow" 
+        class="about__img--cow"
+        />
+      </picture>
+      <div class="about__description--total">
+        <p class="about__description">
+          Ice is a place where you will become not only a little happier, but
+          also healthier. Health is the main value for us, and we follow it
+          when creating our handmade desserts.
+        </p>
+        <p class="about__description">
+          We use traditional recipes and 100% natural ingredients. Our
+          products are so natural that they can be given to children from the
+          age of three years. Sweets lovers can expect 55 types of ice cream,
+          15 types of coffee and 23 milkshakes.
+        </p>
+        <p class="about__description">This is enough to choose ice cream and coffee for any mood!</p>
+        <button class="button about__button">Read more ></button>
+      </div>
+    </div>
+  </div>
+</section>
