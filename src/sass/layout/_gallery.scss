@@ -1,0 +1,50 @@
+@import '~node_modules/simplelightbox/dist/simple-lightbox.min.css';
+.gallery__container{
+    background-color: var(--primary-background-color);
+
+}
+.gallery__item{
+    width: 80%;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width: 480px){
+        width: 440px
+    }  
+    @media screen and (min-width: 768px){
+        width: 700px;
+    }
+    @media screen and (min-width: 1200px){
+        width: 1013px;
+    }
+    padding-top: 50px;
+    
+}
+.gallery__item img{
+    border-radius: 50px;
+}
+.is-active{
+    display: block;
+}
+.sl-wrapper .simple-lightbox {
+    width: 280px;
+    @media screen and (min-width: 480px){
+        width: 440px
+    }  
+    @media screen and (min-width: 768px){
+        width: 700px;
+    }
+    @media screen and (min-width: 1200px){
+        width: 1013px;
+    }
+}
+
+.sl-wrapper .sl-image .sl-caption{
+    color: var(--accent-color);
+}
+.sl-wrapper .sl-close, .sl-wrapper .sl-counter{
+    color: var(--accent-color);
+}
+.sl-wrapper .sl-counter{
+    font-weight: 700;
+}
