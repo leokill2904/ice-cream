@@ -1,50 +1,74 @@
 @import '~node_modules/simplelightbox/dist/simple-lightbox.min.css';
-.gallery__container{
-    background-color: var(--primary-background-color);
-
+.gallery__container {
+  background-color: var(--primary-background-color);
 }
-.gallery__item{
-    width: 80%;
-    padding-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    @media screen and (min-width: 480px){
-        width: 440px
-    }  
-    @media screen and (min-width: 768px){
-        width: 700px;
-    }
-    @media screen and (min-width: 1200px){
-        width: 1013px;
-    }
-    padding-top: 50px;
-    
+.gallery__radio-list {
+  display: flex;
+  padding-top: 15px;
+  padding-left: 30px;
 }
-.gallery__item img{
-    border-radius: 50px;
+.gallery__radio-link {
+  display: block;
+  margin-right: 10px;
+  border: 2px solid var(--accent-color);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  @media screen and (min-width: 768px) {
+    width: 20px;
+    height: 20px;
+  }
 }
-.is-active{
-    display: block;
+.gallery__radio-link:hover,
+.gallery__radio-link:focus {
+  background-color: var(--accent-color);
+}
+.gallery__radio-link:last-child {
+  margin-right: 0;
+}
+.gallery__item {
+  display: none;
+  width: 80%;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 480px) {
+    width: 440px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 700px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1013px;
+  }
+  padding-top: 50px;
+}
+.gallery__item img {
+  border-radius: 50px;
+}
+.is-active {
+  display: block;
 }
 .sl-wrapper .simple-lightbox {
-    width: 280px;
-    @media screen and (min-width: 480px){
-        width: 440px
-    }  
-    @media screen and (min-width: 768px){
-        width: 700px;
-    }
-    @media screen and (min-width: 1200px){
-        width: 1013px;
-    }
+  width: 280px;
+  @media screen and (min-width: 480px) {
+    width: 440px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 700px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1013px;
+  }
 }
 
-.sl-wrapper .sl-image .sl-caption{
-    color: var(--accent-color);
+.sl-wrapper .sl-image .sl-caption {
+  color: var(--accent-color);
 }
-.sl-wrapper .sl-close, .sl-wrapper .sl-counter{
-    color: var(--accent-color);
+.sl-wrapper .sl-close,
+.sl-wrapper .sl-counter {
+  color: var(--accent-color);
 }
-.sl-wrapper .sl-counter{
-    font-weight: 700;
+.sl-wrapper .sl-counter {
+  font-weight: 700;
 }
