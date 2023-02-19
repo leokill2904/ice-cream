@@ -1,0 +1,110 @@
+.advantages__container{
+    background-color: var(--primary-background-color);
+}
+.advantages__list{
+    display: block;
+    @media screen and (min-width: 768px){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.advantages__item{
+    position: relative;
+    padding-top: 95px;
+    @media screen and (min-width: 768px){
+        margin-right: 80px;
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+    @media screen and (min-width: 1200px){
+        margin-right: 35px;
+    }
+}
+.advantages__item--cow::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 50%;
+  
+    width: 50px;
+    height: 50px;
+  
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/src/images/advantages/cow.png);
+}
+.advantages__item--weight::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 50%;
+  
+    width: 50px;
+    height: 50px;
+  
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/src/images/advantages/weight.png);
+}
+.advantages__item--ice-cream::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 50%;
+  
+    width: 50px;
+    height: 50px;
+  
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/src/images/advantages/ice-crema.png);
+}
+.advantages__value{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.22;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: var(--primary-text-color);
+    @media screen and (min-width: 768px){
+        font-size: 48px;
+    }
+    @media screen and (min-width: 1200px){
+        font-size: 58px;
+    }
+}
+.advantages__value--description{
+    width: 230px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.66;
+
+    text-align: center;
+
+    color: var(--primary-text-color);
+
+    @media screen and (min-width: 768px){
+        width: 152px;
+
+        font-size: 14px;
+    }
+    @media screen and (min-width: 1200px){
+        width: 360px;
+
+        font-size: 16px;
+        letter-spacing: 0.02em;
+    }
+}
