@@ -18,17 +18,9 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "carousel": "^0.0.3",
     "jquery": "^3.6.3",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.12.1",
-    "slick": "^1.12.2",
-=======
-    "jquery": "^3.6.3",
-    "modern-normalize": "^1.1.0",
-    "simplelightbox": "^2.12.1",
->>>>>>> 2da55ccc67cb74a98a53c581cdd1e6392190a47a
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

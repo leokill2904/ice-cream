@@ -1,3 +1,31 @@
-.contacrs__container{
-    background-color: var(--primary-background-color);
+.contacts__container {
+  background-color: var(--primary-background-color);
+}
+.contacts__item {
+  width: 280px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  background-color: var(--secondary-background-color);
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-right: 58px;
+  padding-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    width: 224px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 368px;
+  }
+}
+.contacts__category {
+  padding: 4px 22px;
+  background-color: var(--button-color);
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
