@@ -10,6 +10,7 @@
             10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA
           </address>
         </div>
+        <p class="contacts__line"></p>
         <div class="contacts__working">
           <p class="contacts__working-day">Monday - Friday</p>
           <time class="contacts__working-time" datetime="06:00:00"
@@ -20,6 +21,7 @@
             >08:00 AM - 16:00 PM</time
           >>
         </div>
+        <p class="contacts__line"></p>
         <address class="contacts__info">
           <a class="contacts__tel" href="tel:+610383766284"
             >+61(0) 383 766 284</a
@@ -37,6 +39,7 @@
             1003 Manhattan Ave, Manhattan Beach, CA 90263, USA
           </address>
         </div>
+        <p class="contacts__line"></p>
         <div class="contacts__working">
           <p class="contacts__working-day">Monday - Friday</p>
           <time class="contacts__working-time" datetime="06:00:00"
@@ -47,6 +50,7 @@
             >08:00 AM - 16:00 PM</time
           >>
         </div>
+        <p class="contacts__line"></p>
         <address class="contacts__info">
           <a class="contacts__tel" href="tel:+610383766284"
             >+61(0) 383 766 284</a
@@ -64,6 +68,7 @@
             726 Sterling Pl, Brooklyn, NY 11222, USA
           </address>
         </div>
+        <p class="contacts__line"></p>
         <div class="contacts__working">
           <p class="contacts__working-day">Monday - Friday</p>
           <time class="contacts__working-time" datetime="06:00:00"
@@ -74,6 +79,7 @@
             >08:00 AM - 16:00 PM</time
           >>
         </div>
+        <p class="contacts__line"></p>
         <address class="contacts__info">
           <a class="contacts__tel" href="tel:+610383766284"
             >+61(0) 383 766 284</a
@@ -84,7 +90,23 @@
         </address>
       </li>
     </ul>
-    <button class="button">Our Location ></button>
-    <button class="button">Franchise ></button>
+<ul class="contacts__button">
+    <li>
+        <button class="contacts__button-locations" type="button" data-button="locations" data-modal-open>Our Locations
+    <svg  class="contact__button-icon-location">
+        <use href="/src/images/sprite.svg#icon-btn-arrow">
+            </use>
+     </svg>
+        </button>
+    </li>
+    <li>
+        <button class="contacts__button-franchise" type="button" data-button="franchise" data-modal-open>Franchise
+            <svg  class="contact__button-icon-franchise">
+                <use href="/src/images/sprite.svg#icon-btn-arrow">
+                </use>
+            </svg>
+        </button>
+    </li>
+</ul>
   </div>
 </section>
