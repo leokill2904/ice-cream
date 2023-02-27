@@ -57,6 +57,10 @@
     margin-bottom: 40px;
   }
 }
+.hero__button:focus, 
+.hero__button:hover{
+  background-color: var(--accent-color);
+}
 .hero__link {
   margin-left: 12px;
 
@@ -66,12 +70,15 @@
   text-decoration-line: underline;
 
   color: var(--accent-color);
-
+  cursor: pointer;
   @media screen and (min-width: 1200px) {
     margin-left: 35px;
 
     font-size: 14px;
   }
+}
+.hero__link:hover, .hero__link:focus{
+  color: black;
 }
 .hero__points {
   width: 320px;
@@ -163,4 +170,5 @@
 .hero__preview-button {
   width: 40px;
   height: 16px;
+  cursor: pointer;
 }

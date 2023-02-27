@@ -393,6 +393,11 @@ body .mobile-menu.is-open {
   }
 }
 
+.hero__button:focus,
+.hero__button:hover {
+  background-color: var(--accent-color);
+}
+
 .hero__link {
   margin-left: 12px;
   font-weight: 600;
@@ -400,12 +405,17 @@ body .mobile-menu.is-open {
   line-height: 1.25;
   text-decoration-line: underline;
   color: var(--accent-color);
+  cursor: pointer;
 }
 @media screen and (min-width: 1200px) {
   .hero__link {
     margin-left: 35px;
     font-size: 14px;
   }
+}
+
+.hero__link:hover, .hero__link:focus {
+  color: black;
 }
 
 .hero__points {
@@ -530,6 +540,7 @@ body .mobile-menu.is-open {
 .hero__preview-button {
   width: 40px;
   height: 16px;
+  cursor: pointer;
 }
 
 .products__container {
