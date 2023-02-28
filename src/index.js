@@ -1,4 +1,5 @@
 import './js/mobile-menu';
+import './js/modal'
 import './js/gallery';
 import './js/gallery-items';
 import './js/customer-reviews/reviews-slider';
